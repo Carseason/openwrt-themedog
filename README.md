@@ -18,7 +18,9 @@
     背景可替换:
         luci/luci-theme-dog/htdocs/luci-static/dog/image/nas_bg.gif
     进行更新覆盖
-    
+
+##  构建:
+    make -j16 V=s package/openwrt-themedog/luci/luci-theme-dog/compile
 ## 演示:
 ![](./demo/demo1.png)
 ![](./demo/demo2.png)

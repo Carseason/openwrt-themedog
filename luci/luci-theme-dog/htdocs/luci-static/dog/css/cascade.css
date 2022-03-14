@@ -187,7 +187,9 @@ textarea {
     vertical-align: baseline;
     line-height: 2em;
 }
-
+option {
+    color: #000;
+}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
