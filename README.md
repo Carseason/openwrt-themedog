@@ -11,16 +11,16 @@
 ##  窗口样式不清晰?
     默认使用了 Openwrt21_bootstrap 的 cascade.css 进行了微修改
     对此不满意可替换:
-        luci/luci-theme-dog/htdocs/luci-static/dog/css/cascade.css
+        luci/luci-theme-dog/htdocs/luci-static/themedog/css/cascade.css
     进行更新覆盖
 
 ##  背景替换?
     背景可替换:
-        luci/luci-theme-dog/htdocs/luci-static/dog/image/nas_bg.gif
+        luci/luci-theme-dog/htdocs/luci-static/themedog/image/bg.gif
     进行更新覆盖
 
 ##  构建:
-    make -j16 V=s package/openwrt-themedog/luci/luci-theme-dog/compile
+    make -j16 V=s package/openwrt-themedog/luci/luci-themedog/compile
 ## 演示:
 ![](./demo/demo1.png)
 ![](./demo/demo2.png)
