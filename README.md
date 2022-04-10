@@ -4,19 +4,19 @@
 
 ##  自定义图标?
     根据 菜单名称 调用图标
-        luci/luci-theme-dog/htdocs/luci-static/dog/icons
+        luci/luci-themedog/htdocs/luci-static/dog/icons
         app-icon.png 为默认占位图标
     其余的请根据喜好 更换/添加/删除
 
 ##  窗口样式不清晰?
     默认使用了 Openwrt21_bootstrap 的 cascade.css 进行了微修改
     对此不满意可替换:
-        luci/luci-theme-dog/htdocs/luci-static/themedog/css/cascade.css
+        luci/luci-themedog/htdocs/luci-static/themedog/css/cascade.css
     进行更新覆盖
 
 ##  背景替换?
     背景可替换:
-        luci/luci-theme-dog/htdocs/luci-static/themedog/image/bg.gif
+        luci/luci-themedog/htdocs/luci-static/themedog/image/bg.gif
     进行更新覆盖
 
 ##  构建:
