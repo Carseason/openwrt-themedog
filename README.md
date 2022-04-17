@@ -2,6 +2,16 @@
     基于 Openwrt21 JavascriptApi 的主题
     前端使用 vue3 Typescript 配合  iframe 实现的可视化主题
 
+#  切换至别的主题后首页为空?
+    themedog 会注册
+        luci/luci-themedog/root/usr/share/luci/menu.d/luci-themedog.json
+    文件实现注册顶级菜单。
+    导致切换主题后该文件依旧存在。目前暂无发现相关钩子能触发动作。
+    所以如果不想使用 themedog 主题， 可在切换主题后使用命令
+    opkg remove luci-themedog 
+    把主题卸载即可
+    
+
 ##  自定义图标?
     根据 菜单名称 调用图标
         luci/luci-themedog/htdocs/luci-static/dog/icons
