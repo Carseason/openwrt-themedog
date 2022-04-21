@@ -32,6 +32,9 @@ body {
     background: none !important;
     background: url(/luci-static/themedog/image/bg.gif) no-repeat center center fixed;
 } */
+body{
+    background-color: #242424  !important;;
+}
 .modal {
     background-color: #181c20c7;
     backdrop-filter: blur(20px);

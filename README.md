@@ -32,7 +32,7 @@
 ##  构建:
     make -j16 V=s package/openwrt-themedog/luci/luci-themedog/compile
 ## 演示:
-![](./demo/demo1.png)
-![](./demo/demo2.png)
-![](./demo/demo3.png)
-![](./demo/demo4.png)
+![](./demo/0.png)
+![](./demo/1.png)
+![](./demo/2.png)
+![](./demo/3.png)

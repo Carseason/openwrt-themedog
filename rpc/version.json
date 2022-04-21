@@ -1,7 +1,7 @@
 {
     "success": true,
     "result": {
-        "version": "0.0.65",
-        "description": ""
+        "version": "0.0.70",
+        "description": "新增上传背景"
     }
 }
