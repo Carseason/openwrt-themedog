@@ -1,7 +1,7 @@
 {
     "success": true,
     "result": {
-        "version": "0.0.70",
-        "description": "新增上传背景"
+        "version": "0.0.73",
+        "description": "修正页面三级菜单不显示问题"
     }
 }

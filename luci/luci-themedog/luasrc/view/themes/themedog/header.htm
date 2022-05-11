@@ -20,9 +20,8 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="theme-color" content="#000">
 		<!--  -->
-		<script type="text/javascript" src="<%=url('admin/translations', lang)%>"></script>
-		<script type="text/javascript" src="<%=resource%>/cbi.js?v=0.0.5"></script> 
-		<script type="text/javascript" src="<%=resource%>/xhr.js?v=0.0.5"></script>
+		<script src="<%=url('admin/translations', luci.i18n.context.lang)%><%# ?v=PKG_VERSION %>"></script>
+		<script src="<%=resource%>/cbi.js"></script>
 		<!--  -->
 		<%	
 			if ( isindex ) then	
@@ -38,3 +37,4 @@
 	<body name="<%=hostname%>"   class="lang_<%=lang%> <% if node then %><%= striptags( node.title ) %><%- end %>" data-page="<%= page %>">
 		<div id="maincontent" > 
 			<div id="indicators" class="pull-right"></div>
+			<div id="tabmenu" style="display:none"></div>
